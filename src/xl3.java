@@ -46,7 +46,9 @@ public class xl3 {
 			}    
 			myxl = null; // Memory gets released
 			return xData;
+		System.out.println("Test commit");
 		}
+		
 		
 		public static void writeXLSheets(String sPath, String iSheet, int sheetIndex, String[][] xData)
 				throws Exception
